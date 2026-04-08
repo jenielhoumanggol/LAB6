@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+p, h1, h2, h3, ul, li, body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, nav, footer {
+    font-family: Lobster, Cambria, "Times New Roman", serif;
+    color: #FAFAFA;
+}
+
+body {
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+    font-size: 100%;
+    background: linear-gradient(to bottom, #9499d3 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+
+header {
+    padding: 15px;
+    width: auto;
+    margin: 0 0;
+    height: 50px;
+    background: repeating-linear-gradient(45deg, #000, #000 10px, #4b59ad 10px, #4b59ad 20px);
+    border-bottom: 5px solid #2e3875;
+}
+
+header h2 {
+    float: left;
+    font-size: 28pt;
+    margin-left: 10px;
+}
+
+header nav {
+    float: right;
+    margin: 10px 15px 10px 10px;
+}
+
+main {
+    margin: 20px 10px;
+}
+
+section {
+    margin: 1em auto;
+    clear: left;
+    width: 90%; 
+    padding-left: 3%;
+}
+
+section h1 {
+    margin-left: 1.5em;
+    font-size: 24pt;
+    color: #4b59ad;
+    margin-bottom: 20px;
+}
+
+figure {
+    float: left;     
+    width: 390px;    
+    margin: 10px;    
+    box-sizing: border-box; 
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border: 5px solid #000;
+    background-color: #000;
+}
+
+figcaption {
+    margin-bottom: 1em;
+    font-size: 0.9em;
+    word-wrap: break-word; 
+}
